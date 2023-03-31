@@ -1,6 +1,12 @@
-.quill-container {
+.root-container {
   margin-top: 2%;
 }
-#quill-editor {
-  min-height: 250px;
+#editor {
+  height: 300px;
+}
+#editor-html {
+  border: 1px solid #3e4446;
+  border-radius: 2px;
+  padding: 8px 8px;
+  white-space: pre-wrap;
 }

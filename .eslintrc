@@ -2,7 +2,6 @@
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "@typescript-eslint",
-    "react-refresh"
   ],
   "extends": [
     "eslint:recommended",
@@ -13,9 +12,9 @@
     "*.svg",
     "*.css",
     "@types",
+    "*.ico"
   ],
   "rules": {
-    "react-refresh/only-export-components": "warn",
     "indent": [
       "error",
       2,
