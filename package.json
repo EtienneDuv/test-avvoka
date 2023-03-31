@@ -1,0 +1,24 @@
+{
+  "name": "test-avvoka",
+  "version": "1.0.0",
+  "description": "Technical test for Avvoka",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EtienneDuv/test-avvoka.git"
+  },
+  "keywords": [
+    "avvoka",
+    "quill"
+  ],
+  "author": "EtienneDuv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EtienneDuv/test-avvoka/issues"
+  },
+  "homepage": "https://github.com/EtienneDuv/test-avvoka#readme",
+  "dependencies": {
+  }
+}

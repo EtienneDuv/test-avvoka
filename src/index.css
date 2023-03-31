@@ -1,0 +1,6 @@
+.quill-container {
+  margin-top: 2%;
+}
+#quill-editor {
+  min-height: 250px;
+}
