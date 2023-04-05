@@ -1,5 +1,5 @@
 .root-container {
-  margin-top: 2%;
+  margin: 3% 5%
 }
 #editor {
   height: 300px;
@@ -9,4 +9,8 @@
   border-radius: 2px;
   padding: 8px 8px;
   white-space: pre-wrap;
+}
+.custom-button {
+  margin: auto;
+  text-align: center;
 }

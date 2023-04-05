@@ -9,7 +9,8 @@ Please ensure your code meets the following requirements:
 **The requirements are stringent due to the nature of our projects, which often involve unique challenges and solutions not readily available on the internet. As such, it is crucial that the code is crafted independently and originates from your expertise.**
 
 ## Objective:
-Add a custom module to the Quill editor that enables the insertion of a new format containing an image and text. The format should appear as follows:
+Add a custom module to the Quill editor that enables the insertion of a new format containing an image and text. 
+The format should appear as follows:
 
 ```html
 <q-img-text>
@@ -31,7 +32,11 @@ The Delta format representation should be:
 }
 ```
 
-The custom format should be insertable into the editor using the toolbar and via drag and drop. For drag and drop, users should be able to drag an image into the editor and add text. Using the toolbar, users should be able to insert both the image and text simultaneously. Drag and Drop should convert the image to a base64 format, enabling it to be saved in the Delta format without server-side storage. The custom format must be fundamentally insertable through Delta (e.g., using `editor.updateContents(new Delta().retain(..10..).insert({...}))`).
+The custom format should be insertable into the editor using the toolbar and via drag and drop. 
+For drag and drop, users should be able to drag an image into the editor and add text. 
+Using the toolbar, users should be able to insert both the image and text simultaneously. 
+Drag and Drop should convert the image to a base64 format, enabling it to be saved in the Delta format without server-side storage. 
+The custom format must be fundamentally insertable through Delta (e.g., using `editor.updateContents(new Delta().retain(..10..).insert({...}))`).
 
 ---
 
